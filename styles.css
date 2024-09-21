@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(242,244,246);
+    overflow-y: scroll;
+    overflow-x:hidden ;
+}
+.sidebar{
+    width:80px;
+    block-size: 100%;
+}
+.sidebar a{
+    background-color: black;
+}
+@keyframes example{
+    from{transform: rotate(0deg);}
+    to{transform:rotate(180deg);}
+}
+img#card2:hover{
+    animation-name:example;
+    animation-duration:2s;
+}
+img#card1:hover{
+    border-style:solid;
+    border-color:white;
+    border-radius: 10px;
+}
+img#cal:hover{
+    border-color: blue!important;
+}
+
+a:active{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.topbar{
+    width:100%;
+    
+}
+.topbar a{
+    position:fixed;
+    top:0px;
+    left:80px;
+    border-bottom: solid;
+    border-color: black;
+}
+a:link{
+    color: grey; 
+    font-family: sans-serif; 
+    text-decoration: none; 
+    font-weight:normal;
+    font-size:small;
+}
+a:hover{
+    color:rgb(0, 0, 255)!important;
+}
